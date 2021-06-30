@@ -1,0 +1,97 @@
+
+
+body,
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    text-decoration-style: solid;
+    color:
+    text-shadow: 1px 2px 2px #1C6EA4;;
+    border: 3px solid;
+    background-color:transparent;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px 6px 5px #5c3070; 
+    border-radius: 7px 7px 7px 7px;
+    font-size: 2.5rem ;
+    font-style: italic, ;
+}
+main{
+    box-shadow: 5px 5px 6px 5px #62297c;
+    border-radius: 7px 7px 7px 7px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2rem;
+    background: #36CD7D;
+    background: -moz-linear-gradient(45deg, #36CD7D 0%, #21657C 100%);
+    background: -webkit-linear-gradient(45deg, #36CD7D 0%, #21657C 100%);
+    background: linear-gradient(45deg, #36CD7D 0%, #21657C 100%);
+}
+body {
+    background: #000E35;
+    background: background: #AB309E;
+    background: -moz-radial-gradient(center, #AB309E 0%, #2B0C35 100%);
+    background: -webkit-radial-gradient(center, #AB309E 0%, #2B0C35 100%);
+    background: radial-gradient(ellipse at center, #AB309E 0%, #2B0C35 100%);
+    font-size: 1.55rem;
+}
+table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border : 3px;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.Subject{
+    color:rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    padding: 10px;
+    background: #ffcc00;
+    margin:0
+}
+/*---------------------------*/ /* Read Users */ /*---------------------------*/
+#userList {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    float: left;
+    margin: 10px;
+    border: 1px solid #4fc3fc;
+}
+#userList h2 {
+    padding: 10px;
+    margin: 0;
+    color: white;
+}
+#userList li {
+    padding: 5px 10px;
+    border-top: 1px solid #4fc3fc;
+    cursor: pointer;
+    color: white;
+    font-style: italic;
+}
+#userList li:hover {
+    background: #4fc3fc;
+}
+#userDetail {
+    float: left;
+    width: 200px;
+    margin: 10px;
+    margin-left: 0;
+    padding: 10px;
+    border: 1px solid #4fc3fc;
+    color: white;
+}
