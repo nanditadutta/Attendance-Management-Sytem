@@ -1,0 +1,24 @@
+ <html>
+  <head>
+  <meta charset="utf-8">
+  <title>LCM and HCF</title>
+  </head>
+  <body>
+  <script>
+   let hcf;
+    const number1 = prompt('Enter the first positive integer: ');
+    const number2 = prompt('Enter the second positive integer: ');
+    const number3 = prompt('Enter the third positive integer')
+
+    for (let i = 1; i <= number1 && i <= number2; i++) {
+
+        if (number1 % i == 0 && number2 % i == 0 && number3 % i == 0) {
+            hcf = i;
+        }
+    }
+    let lcm = (number1 * number2) / hcf;
+    document.write(`HCF of ${number1},${number2} and ${number3} is ${hcf}.`);
+    document.write(`LCM of ${number1},${number2} and ${number3} is ${lcm}.`);
+</script>
+</body>
+</html>
